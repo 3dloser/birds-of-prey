@@ -123,7 +123,7 @@ const birdList = [
             wingspan: "48’ (14.6 m)"
         },
         image: {
-            src: "assets/jets/ah-64.png",
+            src: "assets/jets/AH-64.png",
             width: "200px"
         },
         behavior: "Highly aggressive and predatory, armed with cannon, missiles, and rockets. Can be seen hovering in place, performing quick piviots or rapid acceleration to engage targets.",
@@ -340,7 +340,7 @@ const birdList = [
         },
         origin: {
             country: "Israel",
-            flagSrc: "assets/SVG/map/israel.svg"
+            flagSrc: "assets/SVG/map/Israel.svg"
         }
     },
 
