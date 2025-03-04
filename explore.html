@@ -432,14 +432,14 @@
             </figure>
 
             <figure altitude="42000" onclick="showBirdInfo('HERON TP')">
-                <img src="assets/SVG/heron-tp.svg" width="400px" />
+                <img src="assets/SVG/heron-tp.svg" width="400px"/>
             </figure>
 
             <figure altitude="35000" onclick="showBirdInfo('HERON 1')">
                 <img src="assets/SVG/heron-1.svg" width="320px" />
             </figure>
 
-            <figure altitude="33000" onclick="showBirdInfo('F-16 FIGHTER FALCON')">
+            <figure altitude="33000" onclick="showBirdInfo('F-16 FIGHTING FALCON')">
                 <img src="assets/SVG/F-16.svg" width="350px" />
             </figure>
 
@@ -466,10 +466,10 @@
             <figure altitude="18000" onclick="showBirdInfo('HERMES 450')">
                 <img src="assets/SVG/hermes450.svg" width="200px" />
             </figure>
-
+<!--
             <figure altitude="1000" onclick="showBirdInfo('XTENDER')">
                 <img src="assets/SVG/xtender.svg" width="100px" />
-            </figure>
+            </figure> -->
 
             <figure altitude="8000" onclick="showBirdInfo('MATRICE 600')">
                 <img src="assets/SVG/matrice-600.svg" width="150px" />
@@ -553,7 +553,9 @@
                         </div>
                     </div>
                     <figure>
-                        <img src="{{imgSource}}" width="{{imgWidth}}">
+                        <a href="{{linkSource}}">
+                        <img src="{{imgSource}}" width="{{imgWidth}}" title="{{imgTitle}}">
+                    </a>
                     </figure>
                     <hr>
                     <div class="info-description">

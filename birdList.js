@@ -9,7 +9,8 @@ const birdList = [
         },
         image: {
             src: "assets/jets/F-22.png",
-            width: "200px"
+            width: "200px",
+            title: "image source: https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Raptor_F-22_27th.jpg/800px-Raptor_F-22_27th.jpg?20090110144223"
         },
         behavior: "Stealthy and rarely spotted except by those specifically watching. Specializes in attacking aerial prey but will strike ground targets if necessary.",
         sound: {
@@ -25,14 +26,15 @@ const birdList = [
     {
         manufacturer: "Lockheed Martin",
         type: "fighter jet",
-        model: "F-16 FIGHTER FALCON",
+        model: "F-16 FIGHTING FALCON",
         dimensions: {
             length: "47’ 8” (14.5 m)",
             wingspan: "31’ (9.5 m)"
         },
         image: {
             src: "assets/jets/F-16.png",
-            width: "200px"
+            width: "200px",
+            title: "image source: https://www.airforce-technology.com/wp-content/uploads/sites/6/2024/09/F-16-PR-Image-1024x575.jpg"
         },
         behavior: "One of the most frequently observed birds of prey on the Gaza strip, the F-16 is often found carrying and dropping both bombs and missiles for precision strikes.",
         sound: {
@@ -55,7 +57,8 @@ const birdList = [
         },
         image: {
             src: "assets/jets/F- 35I.png",
-            width: "200px"
+            width: "200px",
+            title: "image source: https://militarywatchmagazine.com/m/articles/2024/06/06/article_66612cb1474830_41880775.jpg"
         },
         behavior: "Flies stealthily to avoid enemy detection. Can be seen gathering intelligence on surveillance missions, and often used to intercept and strike down aerial prey.",
         sound: {
@@ -78,7 +81,8 @@ const birdList = [
         },
         image: {
             src: "assets/jets/F-15.png",
-            width: "200px"
+            width: "200px",
+            title: "image source: https://tvd.im/uploads/posts/2020/04/mcdonnell-douglas-f-15i-ra-am_3.jpg"
         },
         behavior: "Highly migratory and often spotted far from home base. Active during both day and night and in any weather condition, most commonly seen destroying ground targets.",
         sound: {
@@ -101,7 +105,8 @@ const birdList = [
         },
         image: {
             src: "assets/jets/C-130J.png",
-            width: "200px"
+            width: "200px",
+            title: "image source: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/C-130J_135th_AS_Maryland_ANG_in_flight.jpg/800px-C-130J_135th_AS_Maryland_ANG_in_flight.jpg?20250206203808"
         },
         behavior: "High adaptability to harsh environments with long haul capabilities; can be seen transporting troops, vehicles, or humanitarian aid up to 44,000 lbs (20,000 kg).",
         sound: {
@@ -124,7 +129,8 @@ const birdList = [
         },
         image: {
             src: "assets/jets/AH-64.png",
-            width: "200px"
+            width: "200px",
+            title: "image source: https://i.extremetech.com/imagery/content-types/07ihTHUq9kSdCv1e7gAnHaG/hero-image.fit_lim.size_1600x900.v1678673251.jpg"
         },
         behavior: "Highly aggressive and predatory, armed with cannon, missiles, and rockets. Can be seen hovering in place, performing quick piviots or rapid acceleration to engage targets.",
         sound: {
@@ -147,7 +153,8 @@ const birdList = [
         },
         image: {
             src: "assets/jets/UH-60.png",
-            width: "200px"
+            width: "200px",
+            title: "image source: https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/IAF_-_Sikorsky_UH-60_Black_Hawk_%2849111870886%29.jpg/800px-IAF_-_Sikorsky_UH-60_Black_Hawk_%2849111870886%29.jpg?20210130181544"
         },
         behavior: "Primarily used as a troop carrier and logistical support, Black Hawk is agile with a low detectability.",
         sound: {
@@ -170,7 +177,8 @@ const birdList = [
         },
         image: {
             src: "assets/jets/C-17.png",
-            width: "200px"
+            width: "200px",
+            title: "image source: https://media.defense.gov/2021/Sep/29/2002864215/2000/2000/0/170327-F-RU983-9032.JPG"
         },
         behavior: "Most comfortable at lower altitudes, exhibits diverse range of delivery behavior from troops to military pallets and helicopters. Can carry up to 170,900 lbs (77,500 kg).",
         sound: {
@@ -193,7 +201,8 @@ const birdList = [
         },
         image: {
             src: "assets/jets/707.png",
-            width: "200px"
+            width: "200px",
+            title: "image source: https://cdn.jetphotos.com/full/5/19006_1654074469.jpg"
         },
         behavior: "Formerly civilian, the 707 has been adapted for military use. It specializes in aerial refueling, and can often be seen extending its aerial boom in air to link up with others.",
         sound: {
@@ -216,7 +225,8 @@ const birdList = [
         },
         image: {
             src: "assets/drones/hermes-450.png",
-            width: "200px"
+            width: "200px",
+            title: "image source: https://www.flickr.com/photos/xnir/3356966115"
         },
         behavior: "Most comfortable at low- to medium- altitudes, it can be seen patrolling vast areas far from base. One of the first of its kind to evolve to bear arms and conduct strikes.",
         sound: {
@@ -239,7 +249,8 @@ const birdList = [
         },
         image: {
             src: "assets/drones/hermes-900.png",
-            width: "200px"
+            width: "200px",
+            title: "image source: https://elbitsystems.com/media/1920x1013_pic.jpg"
         },
         behavior: "Larger and more capable than the Hermes 450, Hermes 900 can be seen circling target areas in wide, controlled orbits for continuous observation and conducting strikes.",
         sound: {
@@ -262,7 +273,8 @@ const birdList = [
         },
         image: {
             src: "assets/drones/heron-tp.png",
-            width: "200px"
+            width: "200px",
+            title: "image source: https://armyrecognition.com/templates/yootheme/cache/37/Israeli_Heron_TP_Drones_Enter_Active_Duty_with_German_Air_Force-374ab38d.webp"
         },
         behavior: "Faster and larger than Heron 1, Heron TP cruises at high altitudes conducting surveillance, damage assessmnet, aerial refuelling, intelligence gathering, and missile defence.",
         sound: {
@@ -285,7 +297,8 @@ const birdList = [
         },
         image: {
             src: "assets/drones/heron-1.png",
-            width: "200px"
+            width: "200px",
+            title: "image source: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/IAI_Heron%28_framed%29.jpg/800px-IAI_Heron%28_framed%29.jpg?20210510160925"
         },
         behavior: "Active day and night and in all weather conditions, the Heron 1 is hard to spot in the air. Its presence signifies ongoing surveillance but can also conduct targeted strikes.",
         sound: {
@@ -308,7 +321,8 @@ const birdList = [
         },
         image: {
             src: "assets/drones/mq-9.png",
-            width: "200px"
+            width: "200px",
+            title: "image source: https://media.defense.gov/2009/Mar/17/2000608254/2000/2000/0/090127-F-7383P-001.JPG"
         },
         behavior: "A large predator known for steady, loitering flight patterns, specializing in both surveillance and strike operations. Commonly seen with Hellfire missiles.",
         sound: {
@@ -331,7 +345,8 @@ const birdList = [
         },
         image: {
             src: "assets/drones/xtender.png",
-            width: "200px"
+            width: "200px",
+            title: "image source: https://defense.xtend.me/wp-content/uploads/2022/02/Xtender-hero-1.png"
         },
         behavior: "Frequently appears in close quarters combat, used to probe unfamilar locations. Can hover in place, ascend or descend rapidly and navgate narrow passages.",
         sound: {
@@ -355,7 +370,8 @@ const birdList = [
         },
         image: {
             src: "assets/drones/matrice-600.png",
-            width: "200px"
+            width: "200px",
+            title: "image source: https://se-cdn.djiits.com/tpc/uploads/sku/cover/b1ce2090-9bdb-4e82-b9af-8bc969b7ac48@ultra.jpg"
         },
         behavior: "Of civilian origin, the Matrice 600 has been spotted carrying a variety of millitary payloads such as tear gas grenades. It is suspected to have firing capabilities.",
         sound: {
@@ -427,6 +443,7 @@ function showBirdInfo(modelName) {
         birdClone.querySelector(".info-dimensions div:nth-child(2) p").textContent = bird.dimensions.wingspan;
         birdClone.querySelector("figure img").src = bird.image.src;
         birdClone.querySelector("figure img").width = bird.image.width;
+        birdClone.querySelector("figure img").title = bird.image.title;
         birdClone.querySelector(".behavior-description p").textContent = bird.behavior;
         birdClone.querySelector(".sound-description button").setAttribute('onclick', `playAudio('${bird.sound.audioId}')`);
         birdClone.querySelector(".sound-description audio").id = bird.sound.audioId;
